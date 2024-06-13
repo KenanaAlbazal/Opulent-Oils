@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+        <title>Opulent Oils</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo 2 no bg.png"></a>
+                <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+                    <ul>
+                        <li><a href="Page 1 - Home.html">Home</a></li>
+                        <li><a href="Page 2 - About.html">About</a></li>
+                        <li><a href="Page 3 - Course.html">Course</a></li>
+                        <li><a href="Page 4 - Sites.html">Sites</a></li>
+                        <li><a href="Page 5 - Facilites.html">Facilities</a></li>
+        
+                    </ul>
+                  
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                
+            </nav>
+
+            <h1>Our Sites</h1>
+        </section>
+
+        <!----Sites-->
+
+<section class="Sites">
+    <h2>Our Global Sites</h2>
+    <p1> We offer a unique opportunity to immerse yourself in the rich artistic traditions of these culturally vibrant locations</p1>
+    
+    <div class="row">
+        <div class="Sites-col">
+            <img src="images/turkey.jpg">
+            <div class="layer">
+                <h4>Turkey</h4>
+            </div>
+        </div>
+        <div class="Sites-col">
+            <img src="images/italy.jpg">
+            <div class="layer">
+                <h4>Italy</h4>
+            </div>
+        </div>
+        <div class="Sites-col">
+            <img src="images/singapore.jpg">
+            <div class="layer">
+                <h4>Singapore</h4>
+            </div>
+        </div>
+    
+    
+    </div>
+    
+    
+    </section>
+
+
+
+</section>
+
+
+
+
+<!----Footer-->
+<section class="footer">
+    <h5>About Us</h5>
+    <p2>At Opulent Oils, we are dedicated to nurturing creativity and excellence in oil painting.<br> Our mission is to provide top-quality instruction, inspiring facilities, and a supportive community for artists of all levels.</p2>
+<div class="icons">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+</div>
+
+</section>
+
+
+
+
+
+
+       <!----JavaScript for toggle Menu on small screen---->
+    
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <script src="https://kit.fontawesome.com/afd89f958f.js" crossorigin="anonymous"></script>
+    </body>
+</html>

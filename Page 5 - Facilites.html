@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+        <title>Opulent Oils</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo 2 no bg.png"></a>
+                <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+                    <ul>
+                        <li><a href="Page 1 - Home.html">Home</a></li>
+                        <li><a href="Page 2 - About.html">About</a></li>
+                        <li><a href="Page 3 - Course.html">Course</a></li>
+                        <li><a href="Page 4 - Sites.html">Sites</a></li>
+                        <li><a href="Page 5 - Facilites.html">Facilities</a></li>
+        
+                    </ul>
+                  
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                
+            </nav>
+
+            <h1>Our Facilities</h1>
+        </section>
+<!----facilities-->
+<section class="facilities">
+    <h2>Facilities We Offer</h2>
+    <p1>Our facilities provide students with the ideal environment to create, learn, and showcase their work.</p1>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/studio.jpg">
+            <h4>State-of-the-Art Studios</h4>
+            <p2>Each studio provides individual workstations, easels, and ample natural light to create an ideal painting environment.</p2>
+        </div>
+        <div class="facilities-col">
+            <img src="images/library.jpg">
+            <h4>Art Library and Resource Center</h4>
+            <p2>This facility includes an extensive collection of art books, periodicals, and digital resources on techniques, history, and contemporary practices.</p2>
+        </div>
+        <div class="facilities-col">
+            <img src="images/exhibition.jpg">
+            <h4>Exhibition Gallery</h4>
+            <p2>Our on-site exhibition gallery provides students with the opportunity to showcase their work and gain exposure.</p2>
+        </div>
+    </div>
+
+
+
+</section>
+
+
+
+
+
+
+<!----Footer-->
+<section class="footer">
+    <h5>About Us</h5>
+    <p2>At Opulent Oils, we are dedicated to nurturing creativity and excellence in oil painting.<br> Our mission is to provide top-quality instruction, inspiring facilities, and a supportive community for artists of all levels.</p2>
+<div class="icons">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+</div>
+
+</section>
+
+
+
+
+
+
+       <!----JavaScript for toggle Menu on small screen---->
+    
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <script src="https://kit.fontawesome.com/afd89f958f.js" crossorigin="anonymous"></script>
+    </body>
+</html>
